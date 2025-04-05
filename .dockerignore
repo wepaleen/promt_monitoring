@@ -1,0 +1,27 @@
+# Игнорируемые файлы и директории
+.git
+.gitignore
+.env
+*.pyc
+__pycache__
+*.log
+.pytest_cache
+.coverage
+htmlcov
+.idea
+.vscode
+*.swp
+*.swo
+.DS_Store
+results/*
+static/*
+!static/.gitkeep
+!results/.gitkeep
+
+# Игнорируем файлы Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Игнорируем файлы с переменными окружения
+*.env 
