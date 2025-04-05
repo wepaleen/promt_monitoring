@@ -1,0 +1,14 @@
+# OpenAI API ключ
+OPENAI_API_KEY=
+
+# Langfuse API ключи
+LANGFUSE_PUBLIC_KEY=
+LANGFUSE_SECRET_KEY=
+
+# Базовые URL
+OPENAI_BASE_URL=https://api.openai.com/v1
+LANGFUSE_BASE_URL=https://us.cloud.langfuse.com
+
+# Настройки приложения
+FLASK_DEBUG=1
+FLASK_ENV=development
